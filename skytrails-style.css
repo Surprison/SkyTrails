@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a027e;
+}
+
+header {
+    background: linear-gradient(rgb(255, 255, 255), #0a027e), url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    margin-bottom: 20px;
+}
+
+header .logo img {
+    max-width: 150px; 
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: rgb(55, 55, 255);
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #333; 
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+    margin: auto;
+    overflow: hidden; 
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto; 
+}
+
+.mySlides {
+    display: none;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 1.5em;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.hot-deals {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(#0a027e , rgb(185, 223, 248), rgb(185, 223, 248), #0a027e);
+}
+
+.hot-deals h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.deal {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.deal img {
+    width: 100%;
+    height: auto;
+}
+
+.deal-info {
+    padding: 15px;
+}
+
+.deal-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.deal-info p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer {
+    background-color: #0a027e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
